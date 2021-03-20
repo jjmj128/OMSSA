@@ -52,7 +52,7 @@
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Artifact -->
 
     <rdf:Description rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Artifact">
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Physical_equipment"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#item"/>
     </rdf:Description>
     
 
@@ -164,7 +164,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_output"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_Strategy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#cost-benefit-risk_analysis_report"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -260,6 +260,15 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_risk"/>
         <CommonCoreOntologies:definition>A CCO: Descriptive information content entity. It describes the environment impact of a failure occurrence.</CommonCoreOntologies:definition>
         <rdfs:label>Environmental risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#FMECA_report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#FMECA_report">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Report"/>
+        <rdfs:label>FMECA report</rdfs:label>
     </owl:Class>
     
 
@@ -600,6 +609,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_output"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_Strategy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_process_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Cost-Risk-Benefit_Analysis"/>
             </owl:Restriction>
@@ -648,35 +663,6 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_risk"/>
         <CommonCoreOntologies:definition>A CCO: Descriptive information content entity. It describes the operational (production) impact of a failure occurrence.</CommonCoreOntologies:definition>
         <rdfs:label>Operational risk</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Physical_equipment -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Physical_equipment">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000116>Other names present in different standards are: item, artifact, asset, equipment, machine</obo:IAO_0000116>
-        <CommonCoreOntologies:definition>A CCO: Object subclass equivalent to CCO: Artifact. An Object that was designed by some Agent to realize a certain function.</CommonCoreOntologies:definition>
-        <rdfs:label>Physical equipment</rdfs:label>
     </owl:Class>
     
 
@@ -900,6 +886,60 @@
     
 
 
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#cause_of_failure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#cause_of_failure">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/describes"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Cause"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <CommonCoreOntologies:definition>A descriptive information entity in a FMECA report that describes a CCO: cause of a specific OMSA: Failure</CommonCoreOntologies:definition>
+        <rdfs:label>cause of failure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#cost-benefit-risk_analysis_report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#cost-benefit-risk_analysis_report">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Report"/>
+        <rdfs:label>cost-benefit-risk analysis report</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#item -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#item">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000116>Other names present in different standards are: item, artifact, asset, equipment, machine</obo:IAO_0000116>
+        <CommonCoreOntologies:definition>A CCO: Object subclass equivalent to CCO: Artifact. An Object that was designed by some Agent to realize a certain function.</CommonCoreOntologies:definition>
+        <rdfs:label>item</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_Modes,_Effects_and_Criticality_Analysis -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_Modes,_Effects_and_Criticality_Analysis">
@@ -907,19 +947,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_output"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_mode"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_output"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_probability"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_output"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_risk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#FMECA_report"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
