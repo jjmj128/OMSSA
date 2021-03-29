@@ -65,6 +65,52 @@
     
 
 
+    <!-- http://www.semanticweb.org/hedi/ontologies/2018/11/ROMAIN#OWLClass_ROMAIN00000002ROMAIN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hedi/ontologies/2018/11/ROMAIN#OWLClass_ROMAIN00000002ROMAIN">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115>An IAO:information content entity describing a desired ROM:Maintenance Action</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Maintenance Work Order Specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hedi/ontologies/2018/11/ROMAIN#OWLClass_ROMAIN00000029ROMAIN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hedi/ontologies/2018/11/ROMAIN#OWLClass_ROMAIN00000029ROMAIN">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity"/>
+        <rdfs:label xml:lang="en">Cost measurment ICE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hedi/ontologies/2018/11/ROMAIN#OWLClass_ROMAIN00000030ROMAIN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hedi/ontologies/2018/11/ROMAIN#OWLClass_ROMAIN00000030ROMAIN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hedi/ontologies/2018/11/ROMAIN#OWLClass_ROMAIN00000029ROMAIN"/>
+        <rdfs:label xml:lang="en">Actual Cost</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hedi/ontologies/2018/11/ROMAIN#OWLClass_ROMAIN00000031ROMAIN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hedi/ontologies/2018/11/ROMAIN#OWLClass_ROMAIN00000031ROMAIN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hedi/ontologies/2018/11/ROMAIN#OWLClass_ROMAIN00000029ROMAIN"/>
+        <rdfs:label xml:lang="en">Planned Cost</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hedi/ontologies/2018/11/ROMAIN#OWLClass_ROMAIN00000032ROMAIN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hedi/ontologies/2018/11/ROMAIN#OWLClass_ROMAIN00000032ROMAIN">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementInformationContentEntity"/>
+        <rdfs:label xml:lang="en">Time measurement ICE</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition">
