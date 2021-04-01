@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ExtendedRelationOntology" uri="CommonCoreOntologies/ExtendedRelationOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/GeospatialOntology" uri="CommonCoreOntologies/GeospatialOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology" uri="CommonCoreOntologies/ArtifactOntology.ttl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/ArtifactOntology" uri="CommonCoreOntologies/ArtifactOntology.ttl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/EventOntology" uri="CommonCoreOntologies/EventOntology.ttl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/InformationEntityOntology" uri="CommonCoreOntologies/InformationEntityOntology.ttl"/>
+    <uri id="Imports Wizard Entry" name="http://www.obofoundry.org/ro/ro.owl" uri="ro.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology" uri="UnitsOfMeasureOntology.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology" uri="TimeOntology.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology" uri="GeospatialOntology.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology" uri="ExtendedRelationOntology.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl" uri="bfo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology" uri="InformationEntityOntology.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology" uri="EventOntology.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology" uri="ArtifactOntology.owl"/>
     <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2019-12-20/EventOntology" uri="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology"/>
     <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2019-12-20/ArtifactOntology" uri="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ArtifactOntology"/>
     <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2019-12-20/InformationEntityOntology" uri="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1616276966388" name="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/untitled-ontology-75" uri="OMSA.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1617267770190" name="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/untitled-ontology-75" uri="OMSA.owl"/>
     </group>
 </catalog>

@@ -14,9 +14,9 @@
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA">
         <owl:versionIRI rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/V1.0.0/OMSA"/>
-        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2019-12-20/ArtifactOntology"/>
-        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2019-12-20/EventOntology"/>
-        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2019-12-20/InformationEntityOntology"/>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/ArtifactOntology"/>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/EventOntology"/>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/InformationEntityOntology"/>
         <dc:contributor>B. Grabot</dc:contributor>
         <dc:contributor>J. Montero</dc:contributor>
         <dc:contributor>R. Vingerhoeds</dc:contributor>
