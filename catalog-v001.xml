@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ROImport" uri="ro-import.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/EventOntology" uri="EventOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/TimeOntology" uri="TimeOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ExtendedRelationOntology" uri="ExtendedRelationOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/GeospatialOntology" uri="GeospatialOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology" uri="InformationEntityOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/ArtifactOntology" uri="ArtifactOntology.ttl"/>
     <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2019-12-20/EventOntology" uri="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology"/>
     <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2019-12-20/ArtifactOntology" uri="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ArtifactOntology"/>
     <uri id="Imports Wizard Entry" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2019-12-20/InformationEntityOntology" uri="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1617001422342" name="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/untitled-ontology-75" uri="OMSA.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1617268850673" name="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/untitled-ontology-75" uri="OMSA.owl"/>
     </group>
 </catalog>
