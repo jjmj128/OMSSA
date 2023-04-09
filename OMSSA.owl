@@ -12,8 +12,8 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA">
-        <owl:versionIRI rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/V1.0.0/OMSA"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/V1.0.0/OMSSA"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/ArtifactOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/EventOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2021-03-01/InformationEntityOntology"/>
@@ -42,7 +42,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_input_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_Modes,_Effects_and_Criticality_Analysis"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_Modes,_Effects_and_Criticality_Analysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -52,7 +52,7 @@
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Artifact -->
 
     <rdf:Description rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Artifact">
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#item"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#item"/>
     </rdf:Description>
     
 
@@ -60,7 +60,7 @@
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/NominalStasis -->
 
     <rdf:Description rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/NominalStasis">
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Nominal_operation_process"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Nominal_operation_process"/>
     </rdf:Description>
     
 
@@ -111,9 +111,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <CommonCoreOntologies:definition>A BFO: quality sub-class that a COMSA: physical equipment bears. It qualifies the operation state of the physical equipment. It states the operational parameters of the physical equipment described by COMSA: condition data and prescribed by COMSA: condition specification.</CommonCoreOntologies:definition>
         <rdfs:label>Condition</rdfs:label>
@@ -121,38 +121,38 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition_data -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition_data -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition_data">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition_data">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/describes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_input_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation_assessment_process"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation_assessment_process"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_input_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault_detection_process"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault_detection_process"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_input_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Prognostic_process"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Prognostic_process"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_output_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition_monitoring"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition_monitoring"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A CCO: Descriptive Information Content Entity that consists of a set of propositions that describes COMSA: Condition</CommonCoreOntologies:definition>
@@ -161,14 +161,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition_monitoring -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition_monitoring -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition_monitoring">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition_monitoring">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_output"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition_data"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition_data"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A BFO: process that has as output COMSA: Condition data</CommonCoreOntologies:definition>
@@ -177,9 +177,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition_specification -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition_specification -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition_specification">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition_specification">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/QualitySpecification"/>
         <CommonCoreOntologies:definition>A CCO: Quality specification sub-class that prescribes the MSO: condition</CommonCoreOntologies:definition>
         <rdfs:label>Condition specification</rdfs:label>
@@ -187,14 +187,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Corrective_maintenance -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Corrective_maintenance -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Corrective_maintenance">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_Strategy"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Corrective_maintenance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_Strategy"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_about"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A COMSA: maintenance strategy whose triggering event is the failure occurrence</CommonCoreOntologies:definition>
@@ -203,20 +203,20 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Cost-Risk-Benefit_Analysis -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Cost-Risk-Benefit_Analysis -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Cost-Risk-Benefit_Analysis">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Cost-Risk-Benefit_Analysis">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_output"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#cost-benefit-risk_analysis_report"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#cost-benefit-risk_analysis_report"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/process_preceded_by"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_Modes,_Effects_and_Criticality_Analysis"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_Modes,_Effects_and_Criticality_Analysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A BFO: process which iw part of the strategy development process, it aims at evaluating the implementation of a more advanced maintenance strategy for a physical equipment compared to the current one. It considers the failure risk, the cost and benefits of its implementation.</CommonCoreOntologies:definition>
@@ -225,20 +225,20 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfFunction"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/affects"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/process_preceded_by"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Nominal_operation_process"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Nominal_operation_process"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A CCO: Decrease of function. It represents a detrimental change in the operating condition of a physical equipment, normally as a result of a fault.</CommonCoreOntologies:definition>
@@ -247,14 +247,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation_assessment_module -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation_assessment_module -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation_assessment_module">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Predictive_maintenance_system_module"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation_assessment_module">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Predictive_maintenance_system_module"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation_assessment_process"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation_assessment_process"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116>Can also be called health assessment module</obo:IAO_0000116>
@@ -264,14 +264,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation_assessment_process -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation_assessment_process -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation_assessment_process">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation_assessment_process">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/process_precedes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation_threshold_overshoot"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation_threshold_overshoot"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A BFO: process performed on a COMSA: physical equipment by a COMSA: predictive maintenance module to assess degradation until this degradation overshoot a specific threshold.</CommonCoreOntologies:definition>
@@ -280,69 +280,69 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation_threshold_overshoot -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation_threshold_overshoot -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation_threshold_overshoot">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Triggering_event"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation_threshold_overshoot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Triggering_event"/>
         <CommonCoreOntologies:definition>A COMSA: triggering event subclass related to predictive maintenance strategy. It is prescribed by a degradation assessment module of a predictive maintenance system.</CommonCoreOntologies:definition>
         <rdfs:label>Degradation threshold overshoot</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degraded_condition -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degraded_condition -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degraded_condition">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degraded_condition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition"/>
         <CommonCoreOntologies:definition>A COMSA: Condition sub-class that qualifies a COMSA: physical equipment operating out of its optimal parameters</CommonCoreOntologies:definition>
         <rdfs:label>Degraded condition</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Environmental_risk -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Environmental_risk -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Environmental_risk">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_risk"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Environmental_risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_risk"/>
         <CommonCoreOntologies:definition>A CCO: Descriptive information content entity. It describes the environment impact of a failure occurrence.</CommonCoreOntologies:definition>
         <rdfs:label>Environmental risk</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#FMECA_report -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#FMECA_report -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#FMECA_report">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#FMECA_report">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Report"/>
         <rdfs:label>FMECA report</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failed_Condition -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failed_Condition -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failed_Condition">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failed_Condition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition"/>
         <CommonCoreOntologies:definition>A COMSA: Condition sub-class that qualifies the impossibility of a COMSA: Physical equipment to perform its intended function.</CommonCoreOntologies:definition>
         <rdfs:label>Failed condition</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Triggering_event"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Triggering_event"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/affects"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/process_preceded_by"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A COMSA: triggering event subclass related to corrective maintenance strategy. The imposibility of a physical equipment to perform its intended function triggers a maintenance action.</CommonCoreOntologies:definition>
@@ -351,24 +351,24 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_forecast -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_forecast -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_forecast">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Triggering_event"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_forecast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Triggering_event"/>
         <CommonCoreOntologies:definition>A COMSA: triggering event subclass related to predictive maintenance strategy. It is prescribed by a failure forecast module of a predictive maintenance system.</CommonCoreOntologies:definition>
         <rdfs:label>Failure forecast</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_forecast_module -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_forecast_module -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_forecast_module">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Predictive_maintenance_system_module"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_forecast_module">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Predictive_maintenance_system_module"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Prognostic_process"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Prognostic_process"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A COMSA: predictive maintenance system subclass which aims at estimating the remaining useful life of the physical equipment. Maintenance actions would be triggered based on the failure prognostic.</CommonCoreOntologies:definition>
@@ -377,9 +377,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_mode -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_mode -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_mode">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_mode">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000116>EN 13306:2010 defines Failure mode as a manner in which the inability of an item to perform a required function occurs</obo:IAO_0000116>
         <obo:IAO_0000116>ISO 13372:2012 states that a failure is a observable manifestation of a system fault.</obo:IAO_0000116>
@@ -389,14 +389,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_probability -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_probability -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_probability">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_probability">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ProbabilityMeasurementInformationContentEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_output_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_Modes,_Effects_and_Criticality_Analysis"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_Modes,_Effects_and_Criticality_Analysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A CCO: Ratio measurement information content entity that state the probability of a failure occurrence, based statistical information, reliability analysis or design information</CommonCoreOntologies:definition>
@@ -405,9 +405,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_risk -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_risk -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_risk">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_risk">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <CommonCoreOntologies:definition>A CCO: Descriptive information content entity. It describes the impacts of a failure in terms of safety, environment and operation.  It is normally measured by a rank.</CommonCoreOntologies:definition>
         <rdfs:label>Failure risk</rdfs:label>
@@ -415,9 +415,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_risk_rank -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_risk_rank -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_risk_rank">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_risk_rank">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/OrdinalMeasurementInformationContentEntity"/>
         <CommonCoreOntologies:definition>A CCO: ordinal measurement information content entity that places the failure risk into some rank order that is used in the FMECA</CommonCoreOntologies:definition>
         <rdfs:label>Failure risk rank</rdfs:label>
@@ -425,14 +425,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A BFO:quality sub-class. It qualifies an abnormal behavior or defect the COMSA: physical equipment bears. It is described by COMSA: symptoms</CommonCoreOntologies:definition>
@@ -441,24 +441,24 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault_detection -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault_detection -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault_detection">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Triggering_event"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault_detection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Triggering_event"/>
         <CommonCoreOntologies:definition>A COMSA: triggering event subclass related to predictive maintenance strategy. It is prescribed by a fault detection module of a predictive maintenance system.</CommonCoreOntologies:definition>
         <rdfs:label>Fault detection</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault_detection_module -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault_detection_module -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault_detection_module">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Predictive_maintenance_system_module"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault_detection_module">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Predictive_maintenance_system_module"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault_detection_process"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault_detection_process"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A COMSA: predictive maintenance system subclass which aims at detecting incipient faults in a physical system. Maintenance actions would be triggered when identifying a fault.</CommonCoreOntologies:definition>
@@ -467,14 +467,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault_detection_process -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault_detection_process -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault_detection_process">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault_detection_process">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/process_precedes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault_detection"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault_detection"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A BFO: process performed on a COMSA: physical equipment by a COMSA: predictive maintenance module to detect incipient faults</CommonCoreOntologies:definition>
@@ -483,14 +483,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault_start_event -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault_start_event -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault_start_event">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault_start_event">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ProcessBeginning"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/process_precedes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A BFO: process boundary subclass that is the starting point of a defect or abnormal condition of a physical equipment that produces its degradation.</CommonCoreOntologies:definition>
@@ -499,24 +499,24 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fixed_time_recommendation -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fixed_time_recommendation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fixed_time_recommendation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Triggering_event"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fixed_time_recommendation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Triggering_event"/>
         <CommonCoreOntologies:definition>A COMSA: triggering event subclass related to preventive maintenance strategy. It is prescribed by a preventive maintenance plan. A recommendation based on fixed operation intervals or from fixed basic inspections triggers a maintenance action.</CommonCoreOntologies:definition>
         <rdfs:label>Fixed time recommendation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Implementation_benefit -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Implementation_benefit -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Implementation_benefit">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Implementation_benefit">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_input_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Cost-Risk-Benefit_Analysis"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Cost-Risk-Benefit_Analysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A CCO: Descriptive information content entity sub-class that describes a benefit of implementing a preventive maintenance plan or a predictive maintenance system as part of the maintenance strategies.</CommonCoreOntologies:definition>
@@ -525,14 +525,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Implementation_cost -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Implementation_cost -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Implementation_cost">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Implementation_cost">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_input_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Cost-Risk-Benefit_Analysis"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Cost-Risk-Benefit_Analysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A CCO: Descriptive information content entity subclass that quantifies the cost of implementing a more advanced maintenance strategy by means of a preventive maintenance plan and/or a predictive maintenance system.</CommonCoreOntologies:definition>
@@ -541,14 +541,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Implementation_risk -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Implementation_risk -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Implementation_risk">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Implementation_risk">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_input_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Cost-Risk-Benefit_Analysis"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Cost-Risk-Benefit_Analysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A CCO: Descriptive information content entity. It describes the risk of implementing a new predictive maintenance strategy, plan or system.</CommonCoreOntologies:definition>
@@ -557,14 +557,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_Strategy -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_Strategy -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_Strategy">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_Strategy">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_action_specification"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_action_specification"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>An CCO: directive information content entity resulting from maintenance strategy development process. It prescribes the expected triggering event for each maintenance action on a physical equipment</CommonCoreOntologies:definition>
@@ -573,26 +573,26 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_action -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_action -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_action">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_action">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_output"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_report"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_report"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/process_preceded_by"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Triggering_event"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Triggering_event"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/process_precedes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Nominal_operation_process"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Nominal_operation_process"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A BFO: process performed on a COMSA physical equipment to restore or keep it in its operational state.</CommonCoreOntologies:definition>
@@ -601,14 +601,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_action_specification -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_action_specification -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_action_specification">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_action_specification">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Triggering_event_specification"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Triggering_event_specification"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A CCO: Directive information content entity that states the specifications of a maintenance action</CommonCoreOntologies:definition>
@@ -617,14 +617,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_cost -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_cost -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_cost">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_cost">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_input_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Cost-Risk-Benefit_Analysis"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Cost-Risk-Benefit_Analysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A CCO: Descriptive information content entity subclass that quantifies the cost of any maintenance action performed on a COMSA: physical equipment</CommonCoreOntologies:definition>
@@ -633,14 +633,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_report -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_report -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_report">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_report">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Report"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Triggering_event_record"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Triggering_event_record"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A CCO: report subclass. It contains several informations that describe a maintenance action performed on a physical equipment</CommonCoreOntologies:definition>
@@ -649,32 +649,32 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_strategy_development_process -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_strategy_development_process -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_strategy_development_process">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_strategy_development_process">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_output"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_Strategy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_Strategy"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_process_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Cost-Risk-Benefit_Analysis"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Cost-Risk-Benefit_Analysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_process_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Technical_development_process"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Technical_development_process"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_process_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_Modes,_Effects_and_Criticality_Analysis"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_Modes,_Effects_and_Criticality_Analysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A BFO: process subclass. It includes all activities and sub-processes to select the rigth maintenance strategy to apply for the different failure modes of a physical equipment.</CommonCoreOntologies:definition>
@@ -683,19 +683,19 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Nominal_condition -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Nominal_condition -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Nominal_condition">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Nominal_condition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition"/>
         <CommonCoreOntologies:definition>A COMSA: Condition sub-class that qualifies the optimal operation of a COMSA: Physical equipment</CommonCoreOntologies:definition>
         <rdfs:label>Nominal condition</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Nominal_operation_process -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Nominal_operation_process -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Nominal_operation_process">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Nominal_operation_process">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfSpecificallyDependentContinuant"/>
         <CommonCoreOntologies:definition>A CCO: stasis sublclass that defines the time in wich a physical equipment remains in nominal condition. This class is equivalent to CCO: Nominal stasis</CommonCoreOntologies:definition>
         <rdfs:label>Nominal operation process</rdfs:label>
@@ -703,36 +703,36 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Operational_risk -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Operational_risk -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Operational_risk">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_risk"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Operational_risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_risk"/>
         <CommonCoreOntologies:definition>A CCO: Descriptive information content entity. It describes the operational (production) impact of a failure occurrence.</CommonCoreOntologies:definition>
         <rdfs:label>Operational risk</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Predictive_maintenance -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Predictive_maintenance -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Predictive_maintenance">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_Strategy"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Predictive_maintenance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_Strategy"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_about"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation_threshold_overshoot"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation_threshold_overshoot"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_about"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_forecast"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_forecast"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_about"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault_detection"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault_detection"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A COMSA: maintenance strategy whose triggering events are based on the condition of the COMSA: Physical equipment but before a failure. There are three possible triggering events</CommonCoreOntologies:definition>
@@ -741,9 +741,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Predictive_maintenance_system -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Predictive_maintenance_system -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Predictive_maintenance_system">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Predictive_maintenance_system">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/InformationProcessingArtifact"/>
         <CommonCoreOntologies:definition>A CCO: information processing artifact used to analyze the physical equipment condition data and perform fault detection, health/degradation assessments and/or life expectancy estimations.</CommonCoreOntologies:definition>
         <rdfs:label>Predictive mainenance system</rdfs:label>
@@ -751,26 +751,26 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Predictive_maintenance_system_module -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Predictive_maintenance_system_module -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Predictive_maintenance_system_module">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Predictive_maintenance_system_module">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Algorithm"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Degradation_assessment_process"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Degradation_assessment_process"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault_detection_process"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault_detection_process"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Prognostic_process"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Prognostic_process"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A CCO: Algorithm subclass that processes and analyzes the physical equipment condition data</CommonCoreOntologies:definition>
@@ -779,14 +779,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Preventive_Maintenance_Plan -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Preventive_Maintenance_Plan -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Preventive_Maintenance_Plan">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Preventive_Maintenance_Plan">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fixed_time_recommendation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fixed_time_recommendation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A CCO: plan subclass. It include all preventive recomendations to trigger maintenance actions</CommonCoreOntologies:definition>
@@ -795,14 +795,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Preventive_maintenance -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Preventive_maintenance -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Preventive_maintenance">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_Strategy"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Preventive_maintenance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_Strategy"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_about"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fixed_time_recommendation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fixed_time_recommendation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A COMSA: maintenance strategy whose triggering event is a predefined fixed time event, after a operation time interval or at a given preventive maintenance date.</CommonCoreOntologies:definition>
@@ -811,14 +811,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Prognostic_process -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Prognostic_process -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Prognostic_process">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Prognostic_process">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/process_precedes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_forecast"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_forecast"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A BFO: process performed on a COMSA: physical equipment by a COMSA: predictive maintenance module to estimate the time to a future failure of a physical equipment or one of its components.</CommonCoreOntologies:definition>
@@ -827,19 +827,19 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Safety_risk -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Safety_risk -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Safety_risk">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_risk"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Safety_risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_risk"/>
         <CommonCoreOntologies:definition>A CCO: Descriptive information content entity. It describes the safety impact of a failure occurrence.</CommonCoreOntologies:definition>
         <rdfs:label>Safety risk</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Symptoms -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Symptoms -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Symptoms">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Symptoms">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <CommonCoreOntologies:definition>A CCO: Descriptive Information Content Entity that consists of a set of propositions to describe an abnormal behavior of a COMSA: Physical equipment to perform its BFO: Function.</CommonCoreOntologies:definition>
         <rdfs:label>Symptoms</rdfs:label>
@@ -847,20 +847,20 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Technical_development_process -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Technical_development_process -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Technical_development_process">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Technical_development_process">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_output"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Preventive_Maintenance_Plan"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Preventive_Maintenance_Plan"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_output"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Technical_project_plan"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Technical_project_plan"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Technical development process</rdfs:label>
@@ -868,26 +868,26 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Technical_project_plan -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Technical_project_plan -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Technical_project_plan">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Technical_project_plan">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Implementation_benefit"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Implementation_benefit"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Implementation_cost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Implementation_cost"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Implementation_risk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Implementation_risk"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A CCO: plan subclass. It describes the plan of the implementation of a technical project</CommonCoreOntologies:definition>
@@ -896,14 +896,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Triggering_event -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Triggering_event -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Triggering_event">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Triggering_event">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000035"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/process_precedes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Maintenance_action"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Maintenance_action"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A BFO: process boundary that is the starting point for a maintenance action</CommonCoreOntologies:definition>
@@ -912,9 +912,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Triggering_event_record -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Triggering_event_record -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Triggering_event_record">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Triggering_event_record">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <CommonCoreOntologies:definition>A CCO: Descriptive information content entity. It describes the actual triggering evetn for a specific maintenance action in a maintenance report.</CommonCoreOntologies:definition>
         <rdfs:label>Triggering event record</rdfs:label>
@@ -922,9 +922,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Triggering_event_specification -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Triggering_event_specification -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Triggering_event_specification">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Triggering_event_specification">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
         <CommonCoreOntologies:definition>A CCO: Directive information content entity that states the expected triggering event for a maintenance action</CommonCoreOntologies:definition>
         <rdfs:label>Triggering event specification</rdfs:label>
@@ -932,9 +932,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#cause_of_failure -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#cause_of_failure -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#cause_of_failure">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#cause_of_failure">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -948,29 +948,29 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#cost-benefit-risk_analysis_report -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#cost-benefit-risk_analysis_report -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#cost-benefit-risk_analysis_report">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#cost-benefit-risk_analysis_report">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Report"/>
         <rdfs:label>cost-benefit-risk analysis report</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#item -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#item -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#item">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#item">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Condition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Condition"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Fault"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Fault"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -986,20 +986,20 @@
     
 
 
-    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_Modes,_Effects_and_Criticality_Analysis -->
+    <!-- http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_Modes,_Effects_and_Criticality_Analysis -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Failure_Modes,_Effects_and_Criticality_Analysis">
+    <owl:Class rdf:about="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Failure_Modes,_Effects_and_Criticality_Analysis">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/has_output"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#FMECA_report"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#FMECA_report"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/process_precedes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSA#Cost-Risk-Benefit_Analysis"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/j.montero-jimenez/ontologies/2020/7/OMSSA#Cost-Risk-Benefit_Analysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A BFO: process aiming at defining the possible failures of a physical equipment based on the non-fulfilment of its intended function. It defines the effects (consequences) and criticality of the failure.</CommonCoreOntologies:definition>
